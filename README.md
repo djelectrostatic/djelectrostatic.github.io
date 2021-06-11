@@ -1,7 +1,8 @@
 # dj-booking [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?&url=https://github.com/lenargasimov/dj-booking&via=lenargasimov&hashtags=html,css,dj,booking,developers)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/lenargasimov/dj-booking?style=plastic)
-
+![](https://img.shields.io/github/forks/lenargasimov/dj-booking.svg)
+![](https://img.shields.io/github/stars/lenargasimov/dj-booking.svg)
 
 ## Features
 
