@@ -1,10 +1,10 @@
+![](https://media.giphy.com/media/11W37uI72pjDkk/giphy.gif)
+
 # dj-booking [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?&url=https://github.com/djelectrostatic/booking&via=lenargasimov&hashtags=html,css,dj,booking,developers)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/djelectrostatic/booking?style=plastic)
 ![](https://img.shields.io/github/forks/djelectrostatic/booking.svg)
 ![](https://img.shields.io/github/stars/djelectrostatic/booking.svg)
-
-![](https://media.giphy.com/media/11W37uI72pjDkk/giphy.gif)
 
 ## Features
 
