@@ -1,10 +1,17 @@
-![](https://media.giphy.com/media/11W37uI72pjDkk/giphy.gif)
+<p align="center">
+<img width="" src="https://media.giphy.com/media/11W37uI72pjDkk/giphy.gif" align="center" alt="gif" />
+<h1 align="center">Dj booking
+    <a href="https://twitter.com/intent/tweet?&url=https://github.com/djelectrostatic/booking&via=lenargasimov&hashtags=html,css,dj,booking,developers">
+      <img alt="Tweet" src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" />
+    </a>
+</h1>
+</p>
 
-# dj-booking [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?&url=https://github.com/djelectrostatic/booking&via=lenargasimov&hashtags=html,css,dj,booking,developers)
-
-![GitHub last commit](https://img.shields.io/github/last-commit/djelectrostatic/booking?style=plastic)
-![](https://img.shields.io/github/forks/djelectrostatic/booking.svg)
-![](https://img.shields.io/github/stars/djelectrostatic/booking.svg)
+<p align="center">
+    <img src="https://img.shields.io/github/last-commit/djelectrostatic/booking?style=plastic" alt="GitHub last commit">
+    <img src="https://img.shields.io/github/forks/djelectrostatic/booking.svg" alt="">
+    <img src="https://img.shields.io/github/stars/djelectrostatic/booking.svg" alt="">
+</p>
 
 ## Features
 
