@@ -21,6 +21,10 @@
   <img src="images/booking.png" alt="screen"/>
 </p>
 
+- Bootstrap
+- HTML 5
+- CSS 3
+
 ## 👨‍💻 Author
 
 <img style="border-radius: 50%" src="https://github.com/lenargasimov.png" width="100px;" alt=""/>
