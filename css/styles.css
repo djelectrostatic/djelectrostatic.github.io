@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #2a2b2e;
+  color: #f5f5f5;
 }
 
 * {
@@ -26,47 +28,8 @@ h1, h2, h3 {
   width: 100%;
 }
 
-.topnav {
-  position: relative;
-  overflow: hidden;
-  margin: 15px 50px 0 50px;
-  height: 70px;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #111;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: grey; #f2f2f2
-  color: #ffffff;
-  opacity: 0.9;
-}
-
-.topnav a.active {
-  font-weight: bold;
-}
-
-.topnav-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.topnav .icon {
-  display: none;
-}
-
-.topnav-right {
-  float: right;
+.soundcloud {
+  padding: 30px;
 }
 
 /* Style inputs */
@@ -91,6 +54,18 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
+.btn {
+  background-color: #111;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
@@ -110,25 +85,7 @@ input[type=submit]:hover {
   content: "";
   display: table;
   clear: both;
-}
-
-.bio-img-left {
-  position: relative;
-  float: left;
-  width:50%; margin-left:15px
-}
-
-.bio-img-right {
-  position: relative;
-  float: right;
-  width:50%; margin-right:15px
-}
-
-.bio-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
+  padding: 12px 20px;
 }
 
 /* Header/Blog Title */
@@ -136,59 +93,92 @@ input[type=submit]:hover {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: white;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
 }
 
 /* Add a card effect for articles */
 .card {
-   background-color: white;
-   padding: 20px;
-   margin-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.date {
+  color: #ff7c7c;
+}
+
+.place {
+  color: #8deaff;
+}
+
+.gigs-image {
+  width: 600px;
+}
+
+.mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
 }
 
 /* Footer */
 .footer {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
-  background: #ddd;
-  margin-top: 20px;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
+/* Copyright */
+.copyright {
+  color: #9ca2ac;
+  font-size: 14px;
 }
+
+.main-link {
+  font-size: 16px;
+}
+
+/* Social icon */
+.fa {
+  font-size: 20px;
+  color: #9ca2ac;
+}
+
+.material-icons {
+  font-size: 20px;
+}
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
