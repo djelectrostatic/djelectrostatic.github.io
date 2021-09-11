@@ -29,7 +29,7 @@ h1, h2, h3 {
 }
 
 .soundcloud {
-  padding: 30px;
+  padding: 4px;
 }
 
 /* Style inputs */
@@ -70,6 +70,7 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   padding: 10px;
+  margin-top: 50px;
 }
 
 /* Create two columns that float next to eachother */
@@ -103,12 +104,32 @@ input[type=submit]:hover {
   margin-top: 20px;
 }
 
+.gigs-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.gigs-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.gigs-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
 .date {
   color: #ff7c7c;
+  text-align: center;
 }
 
 .place {
   color: #8deaff;
+  text-align: center;
 }
 
 .gigs-image {
@@ -120,7 +141,7 @@ input[type=submit]:hover {
   display: flex;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
-  padding: 0 30px;
+  padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -135,24 +156,6 @@ input[type=submit]:hover {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .photo-column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .photo-column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
 }
 
 /* Footer */
@@ -213,5 +216,39 @@ input[type=submit]:hover {
     float: none;
     display: block;
     text-align: left;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+  .gigs-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .gigs-column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .photo-column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .photo-column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
 }
