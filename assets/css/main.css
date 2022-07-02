@@ -1013,10 +1013,10 @@ input, select, textarea {
 				}
 
 				100% {
-					-moz-transform: translate3d(-412.5px,0,0);
-					-webkit-transform: translate3d(-412.5px,0,0);
-					-ms-transform: translate3d(-412.5px,0,0);
-					transform: translate3d(-412.5px,0,0);
+					-moz-transform: translate3d(-1608px,0,0);
+					-webkit-transform: translate3d(-1608px,0,0);
+					-ms-transform: translate3d(-1608px,0,0);
+					transform: translate3d(-1608px,0,0);
 				}
 
 	}
@@ -1030,10 +1030,10 @@ input, select, textarea {
 			}
 
 			100% {
-				-moz-transform: translate3d(-412.5px,0,0);
-				-webkit-transform: translate3d(-412.5px,0,0);
-				-ms-transform: translate3d(-412.5px,0,0);
-				transform: translate3d(-412.5px,0,0);
+				-moz-transform: translate3d(-1608px,0,0);
+				-webkit-transform: translate3d(-1608px,0,0);
+				-ms-transform: translate3d(-1608px,0,0);
+				transform: translate3d(-1608px,0,0);
 			}
 			}
 
@@ -1046,10 +1046,10 @@ input, select, textarea {
 			}
 
 			100% {
-				-moz-transform: translate3d(-412.5px,0,0);
-				-webkit-transform: translate3d(-412.5px,0,0);
-				-ms-transform: translate3d(-412.5px,0,0);
-				transform: translate3d(-412.5px,0,0);
+				-moz-transform: translate3d(-1608px,0,0);
+				-webkit-transform: translate3d(-1608px,0,0);
+				-ms-transform: translate3d(-1608px,0,0);
+				transform: translate3d(-1608px,0,0);
 			}
 		}
 
@@ -1062,16 +1062,16 @@ input, select, textarea {
 			}
 
 			100% {
-				-moz-transform: translate3d(-412.5px,0,0);
-				-webkit-transform: translate3d(-412.5px,0,0);
-				-ms-transform: translate3d(-412.5px,0,0);
-				transform: translate3d(-412.5px,0,0);
+				-moz-transform: translate3d(-1608px,0,0);
+				-webkit-transform: translate3d(-1608px,0,0);
+				-ms-transform: translate3d(-1608px,0,0);
+				transform: translate3d(-1608px,0,0);
 			}
 		}
 
 		#bg {
-			background-size: 100% auto;
-			width: 1237.5px;
+			background-size: 45%;
+			width: 2560px;
 		}
 
 	/* Header */
